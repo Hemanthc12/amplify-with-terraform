@@ -7,20 +7,14 @@ module "sample-qs" {
   # - Cognito -
   # Admin Users to create
   sample_admin_cognito_users = {
-    NarutoUzumaki : {
-      username       = "nuzumaki"
-      given_name     = "Naruto"
-      family_name    = "Uzumaki"
-      email          = "naruto@rasengan.com"
+    Hemanthc : {
+      username       = "Hemanthc"
+      given_name     = "admin"
+      family_name    = "c"
+      email          = "hemanthchitt@gmail.com"
       email_verified = true // no touchy
     },
-    SasukeUchiha : {
-      username       = "suchiha"
-      given_name     = "Sasuke"
-      family_name    = "Uchiha"
-      email          = "sasuke@chidori.com"
-      email_verified = true // no touchy
-    }
+
   }
   # Standard Users to create
   sample_standard_cognito_users = {
